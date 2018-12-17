@@ -1,0 +1,162 @@
+body{
+
+}
+.navbar{
+     font-family: sans-serif;
+    height: 10%;
+    box-shadow: .5px .5px 5px; #b671f2;
+    position: fixed !important;
+    z-index: 200;
+    top: 0;
+}
+.navbar ul {
+    margin-left: 60px;
+    font-size: 24px;
+    
+}
+.navbar ul li{
+    text-align: center;
+    margin-left: 5px;
+    width: 160px;
+    font-size: 24px;
+    
+}
+.navbar img{
+    width: 20%;
+    height: 100%;
+    padding: 0 40;
+    
+}
+.navbar ul li:hover{
+    border-bottom: solid 2px #b671f2;
+    color: #AA3DE5 ;
+}
+
+
+
+.sections{
+    margin-top: 5%;
+    width: 100%;
+    height: 1000px;
+    
+}
+.sections .aside{
+    position: fixed !important;
+    z-index: 1;
+    margin-top: 1%;
+    width: 20%;
+    float: left;
+    background: #F7F4F4;
+    box-shadow: .5px .5px 1px; #b671f2;
+ 
+}
+.listmenu ul li a{
+    color: #000;
+    list-style: none;
+    text-decoration: none;
+ 
+}
+.listmenu ul li {
+    color: #000;
+    
+    
+       width: 100%;
+    height: 100%;
+}
+
+.sections  .aside2{
+     margin: 1%  1% 1% 0;
+    width: 20%;
+    float: right;
+    background: #C986EF;
+      box-shadow: .5px .5px 5px; #b671f2;
+    
+}
+
+.sections  .aside2 .ads img{
+    width: 100%;
+    padding: 15px;
+    height: 300px
+    
+}
+
+.sections .aside h4{
+    padding: 10px;
+ text-align: center;
+ background: #C986EF;
+ border-radius: 5px;
+ height: 50px;
+}
+.sections .aside .listmenu{
+    
+    width: 100%;
+    margin: 20px auto;
+  
+    
+}
+.list-group-item:hover{
+    background: #AA3DE5;
+    
+}
+.sections .content{
+width: 57%;
+display: inline-block;
+ height: 2000px;
+margin-left: 20%;
+
+}
+
+.sections .content .header{
+  margin: 15 0 10 25;
+  
+  
+}
+.sections .content .componant{
+  margin: 15 10 10 25;
+  
+  display: block
+}
+.row{
+   height: 200px;
+   margin: 0 0 200 25;
+}
+.card-img-top{
+    height: 200px;
+}
+
+
+
+
+
+
+.footer {
+    margin-top: 100%;
+    bottom: 0 !important ;
+    width: 100%;
+    height: 40px;
+    background: #000;
+  
+    font-family: monospace;
+    font-size: 17;
+    color: #ccc;
+    
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

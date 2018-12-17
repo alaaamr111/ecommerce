@@ -1,0 +1,153 @@
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>
+   login
+  </title>
+  
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href=css/style2.css>
+   <script src="js/jquery-3.3.1.js"></script>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   <script src=js/javascript.js></script>
+   <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+   <link rel="stylesheet" href=css/aos/aos.css>
+ </head>
+ <body>
+  <div id="nav1" style=" position: absolute; right: 0 ; top: 37px; height: 600px;" class="navbar navbar-light bg-light justify-content-between">
+                             <div class=head style="font-size: 26px" >
+                            <a href="https://www.facebook.com/alaa.amr.3781"> <i class="fab fa-facebook-square"></i></a><br><br>
+                            <a href="https://twitter.com/ALAAAMR_"><i class="fab fa-twitter-square"></i></a> <br><br>
+                               <a href="https://www.behance.net/analolrap51f7"><i class="fab fa-behance-square"></i></a><br><br>
+                               <a href="https://www.behance.net/analolrap51f7"><i class="fab fa-linkedin"></i></a><br><br>
+                                </div>  
+                              
+                             
+                          </div>
+                            
+                            <div id="nav2" class="navbar navbar-expand-lg navbar-primary bg-light">
+                             
+                                  <img id=img src=images/logo.png>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                              <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                  <a class="nav-link" href="#"><i style="padding-right: 5px;" class="fas fa-home fa-lg"></i>Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">contact us</a>
+                                </li>
+                                 
+                                 <li class="nav-item">
+                                  <a class="nav-link" href="#">Today's Deals</a>
+                                </li>
+                                <li id=categorydorpdown class="nav-item dropdown">
+                                  <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Categories
+                                  </a>
+                                  <div class="dropdown-menu" id=main aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" id="books" href="category.html">books & audible</a>
+                                    <a class="dropdown-item" id=electronics href="category.html"> electronics, computer, office</a>
+                                    <a class="dropdown-item" id=health href="category.html"> Health & beauty</a>
+                                    <a class="dropdown-item" href="category.html"> clothing, shoes & jewelry </a>
+                                    <a class="dropdown-item" href="category.html"> handmade </a>
+                                    <a class="dropdown-item" href="category.html"> automotive</a>
+                                    <a class="dropdown-item" href="category.html"> toys, kids & baby</a>
+                                    <a class="dropdown-item" href="category.html"> home, garden, pets, tools</a>
+                                  </div>
+                                  
+                                </li>
+                              
+                             
+                               <a><button id=search class="btn btn-outline-primary my-2 my-sm-0" style="margin-left:  440px;" type="submit"><i  class="fas fa-search"></i></button></a> 
+                                
+                                
+                               <input  id="nav3" class="form-control " type="search" placeholder="Search" aria-label="Search">
+                                
+                              </ul>
+                              <div class="dropdown-menu" id=bks aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="category.html">books & audible</a>
+                                    <a class="dropdown-item" href="category.html"> electronics, computer, office</a>
+                                    <a class="dropdown-item" href="category.html"> Health & beauty</a>
+                                    <a class="dropdown-item" href="category.html"> clothing, shoes & jewelry </a>
+                                    <a class="dropdown-item" href="category.html"> handmade </a>
+                                    <a class="dropdown-item" href="category.html"> automotive</a>
+                                    <a class="dropdown-item" href="category.html"> toys, kids & baby</a>
+                                    <a class="dropdown-item" href="category.html"> home, garden, pets, tools</a>
+                                  </div>
+                            <div class="dropdown-menu" id=bks2 aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="category.html">mobile</a>
+                                    <a class="dropdown-item" href="category.html"> camera</a>
+                                    <a class="dropdown-item" href="category.html"> freez</a>
+                                    <a class="dropdown-item" href="category.html"> labtob </a>
+                                    <a class="dropdown-item" href="category.html"> tablet </a>
+                                    <a class="dropdown-item" href="category.html"> desktop computers</a>
+                                    <a class="dropdown-item" href="category.html"> accesories</a>
+                                    <a class="dropdown-item" href="category.html"> tools</a>
+                                  </div>
+                            <div class="dropdown-menu" id=bks3 aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="category.html">food</a>
+                                   
+                                  </div> 
+                          </div>        
+                            </div>
+            
+  <img src=images/coverphoto.jpg style="width: 100%; height: 637; position: absolute; z-index: -1">
+  <img data-aos="zoom-in" src=images/coverlogo.png style="margin: 200 0 0 100 ; width:40%; position: absolute;">
+     <div data-aos="fade-down">
+      <div class=row style=" color: #fff; width: 40%;margin: 250 0 0 700 ; position: absolute;">
+      <div class=col>
+      <form>    <div style="background: #5B5BBF; width: 360px; margin-left:  88px ; margin-bottom: 5px; padding: 2px; border-radius: 5px; border: solid 1px #1B4E96">
+          <label  style="margin-left: 30px;">login with</label>
+
+       <a  href=# ><i   style="margin-left: 15px; margin-right: 15px; color: #fff; margin-top: 10px;" class="fab fa-google fa-2x"></i></a> <b>or</b> 
+       <a   href=# ><i  style="margin-left: 15px; margin-right: 15px; color: #fff;" class="fab fa-facebook-square fa-2x"></i></a>    <b>or</b> 
+       <a  href=# ><i  style="margin-left: 15px; color: #fff;" class="fab fa-twitter-square fa-2x"></i></a>
+       </div>
+
+      <input style="margin-bottom: 20px;" type="email" class="form-control" placeholder="email">
+      <input type="password" class="form-control" placeholder="password">
+      <button style="margin: 20 0 0 85 ; width: 365px;" type="submit" class="btn btn-primary">login</button>
+      </form>
+      </div>   
+     </div>
+     </div>
+     </div>
+   
+  
+  
+    <script src="css/aos/aos.js"></script>
+
+  <script>
+   AOS.init({
+    duration:2000,
+    });
+  </script>
+  <script>
+    $("#search").click( function(){
+     $("#nav3").toggle( 3000 , function(){
+      });
+    });
+     
+     $("#categorydorpdown").hover(function(){
+      $("#main").toggle();
+      });
+     
+     $("#books").hover(function(){
+      $("#bks").toggle();
+      });
+      $("#electronics").hover(function(){
+      $("#bks2").toggle();
+      });
+       $("#health").hover(function(){
+      $("#bks3").toggle();
+      });
+    
+   
+  </script>
+ </body>
+</html>
